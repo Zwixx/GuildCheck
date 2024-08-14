@@ -1,0 +1,33 @@
+## Interface: 80000
+## X-Curse-Packaged-Version: v 2.5.0
+## X-Curse-Project-Name: GuildCheck
+## X-Curse-Project-ID: project-3843
+## X-Curse-Repository-ID: wow/project-3843/mainline
+
+## Title: GuildCheck|cff007fff by Jaxom of Hellfire|r.
+## Version: v 2.5.0
+## Notes: This mod scans your guild at your first login. After this it writes changes to your guild into the chat frame or Optional Gui at every login. It shows: New Members, Members that have left, Level changes, Rank changes, Public Note changes, Officer Note changes (Must Have Officer read privliges!).       Type "/egc" for options - |cff007fff Original Author Tunahdil|r.
+## Notes-deDE: Zeigt Veränderungen in der Gilde seit dem letzten Mal online sein.
+## Notes-ruRU: ???????? ????????? ? ????? ??????? ? ???????? ?????? ??????.
+
+## Author: Manager/Author = Jaxom of Hellfire, Original Author Tunhadil
+## X-Credits: To the few dedicated People who have helped the development of this add-on: To the original creator and Author - Tunhadil, and to Drizzd and Eritnull (aka Wentyh) for there assistance and a Special Thank You to the Members of Dragons Weyr Guild, Hellfire EU, for putting up with the testing of my addons.
+## X-License: All Rights Reserved unless otherwise explicitly stated
+## X-Website: http://http://wow.curseforge.com/addons/project-3843/
+## X-Localizations: enUS (Any help with Locale would be appreciated)
+
+## SavedVariables: GCDB
+
+## OptionalDeps: Ace3, LibGuild-1.0, LibStub, LibBabble-Class-3.0
+## X-Embeds: Ace3, LibGuild-1.0, LibStub, LibBabble-Class-3.0
+
+## X-Category: Guild
+
+#@no-lib-strip@
+embeds.xml
+#@end-no-lib-strip@
+
+Locale-enUS.lua
+Locale-deDE.lua
+Locale-ruRU.lua
+GuildCheck.lua

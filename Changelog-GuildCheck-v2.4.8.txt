@@ -1,0 +1,197 @@
+
+V 2.4.4 - TOC update
+
+v 2.4.3 - replaced missing TGA and updated all libraries.
+
+v 2.4.2 -Gui is now true by default
+
+v 2.4.1 - Thanks to Zelgar for finally figuring out the problem at line 623
+
+
+v 2.3.8 - Extended minimum delay to 10 seconds, to remove error at line 623.
+	  Error is still being caused by another addon scanning the guild roster but 	  it seems to be WOW's addon
+
+-------------------------------------------------------------------------
+v 2.3.7 - update for 4.3
+
+-------------------------------------------------------------------------
+
+v 2.3.6 - Fixed LDB display problem
+	- Finally - A Big Thank You to "VoyseyS" for finally figuring out what was causing the 	  random error at line 623/541
+ 
+------------------------------------------------------------------------
+v 2.35 - Added additional channel choice to send changes to whisper (Note: Will repeat untill i right a 	 hook for it)
+	 Added LDB support
+	 Added Minimap Button to open Gui to see online changes
+
+------------------------------------------------------------------------
+v 2.34 - removed LibBabble, lib no longer required
+	 resized Gui a bit larger
+------------------------------------------------------------------------
+V2.33 - Jaxomuk takes over Management of Project - Thank you to Tunhadil for creating this addon and all his hard work over the years, we will miss him but the addon continues.
+
+Changed size of Gui Frame, Smaller.
+No plans to introduce resize above change makes it silly
+Changed font to Game Font Normal to make it easier to read.
+
+------------------------------------------------------------------------
+v 2.3.1 - update for 4.1.0 - Jaxomuk
+------------------------------------------------------------------------
+V2.30 - sorry problem with packager, still on going, Don't know why it keeps doing this.
+------------------------------------------------------------------------
+V2.27 -Jaxomuk - Fixed Press esacape Error to clear Gui - Fixed V number.
+
+------------------------------------------------------------------------
+V2.26 - Jaxomuk - fixed scroll frame error
+------------------------------------------------------------------------
+
+v2.25 | Jaxomuk | 2010-10-23 19:32:28 +0000 (Sat, 23 Oct 2010) |  fixed for 4.0.1. Removed text highlight on Gui on Load:
+   A /tags/v2.25 (from /trunk:23)
+
+Tagging as v2.25
+
+
+------------------------------------------------------------------------
+r25 | Jaxomuk | 2010-10-23 19:32:28 +0000 (Sat, 23 Oct 2010) |  fixed for 4.0.1. Removed text highlight on Gui on Load:
+   A /tags/v2.25 (from /trunk:23)
+
+Tagging as v2.25
+
+
+------------------------------------------------------------------------
+r24 | tunhadil | 2009-05-22 14:15:06 +0000 (Fri, 22 May 2009) | 2 lines
+Changed paths:
+   A /tags/v2.24 (from /trunk:23)
+
+Tagging as v2.24
+
+------------------------------------------------------------------------
+r22 | tunhadil | 2009-05-14 07:57:47 +0000 (Thu, 14 May 2009) | 2 lines
+Changed paths:
+   M /trunk/GuildCheck.lua
+
+fix: won't touch officer notes any longer if logging in with a twink without rights to read this note
+
+------------------------------------------------------------------------
+r21 | tunhadil | 2009-05-14 05:30:47 +0000 (Thu, 14 May 2009) | 2 lines
+Changed paths:
+   M /trunk
+
+upd: local TODO list added to svn:ignore
+
+------------------------------------------------------------------------
+r19 | tunhadil | 2009-05-13 10:30:15 +0000 (Wed, 13 May 2009) | 2 lines
+Changed paths:
+   M /trunk/GuildCheck.lua
+
+fix: fixed a nil error
+
+------------------------------------------------------------------------
+r17 | tunhadil | 2009-05-07 16:05:19 +0000 (Thu, 07 May 2009) | 3 lines
+Changed paths:
+   M /trunk/GuildCheck.lua
+   M /trunk/Locale-deDE.lua
+   M /trunk/Locale-enUS.lua
+   M /trunk/Locale-ruRU.lua
+
+fix: the lua error caused by leaving death knigths should finally be fixed
+fix: guild members that has left the guild on their own should no longer be displayed as "removed by UNKNOWN"
+
+------------------------------------------------------------------------
+r15 | tunhadil | 2009-04-26 16:40:47 +0000 (Sun, 26 Apr 2009) | 2 lines
+Changed paths:
+   M /trunk
+   M /trunk/GuildCheck.lua
+
+upd: callbackhandler path fixed for in svn:externals
+
+------------------------------------------------------------------------
+r14 | tunhadil | 2009-04-22 14:49:40 +0000 (Wed, 22 Apr 2009) | 2 lines
+Changed paths:
+   M /trunk/GuildCheck.toc
+
+upd: 3rd try
+
+------------------------------------------------------------------------
+r13 | tunhadil | 2009-04-22 14:43:48 +0000 (Wed, 22 Apr 2009) | 2 lines
+Changed paths:
+   M /trunk/GuildCheck.toc
+
+upd: next try for version replacement
+
+------------------------------------------------------------------------
+r12 | tunhadil | 2009-04-22 14:36:13 +0000 (Wed, 22 Apr 2009) | 1 line
+Changed paths:
+   M /trunk/GuildCheck.toc
+
+upd: program version in toc file changed
+------------------------------------------------------------------------
+r11 | tunhadil | 2009-04-22 14:32:35 +0000 (Wed, 22 Apr 2009) | 1 line
+Changed paths:
+   M /trunk/GuildCheck.lua
+
+fix: guildcheck config command fixed
+------------------------------------------------------------------------
+r10 | tunhadil | 2009-04-22 09:59:34 +0000 (Wed, 22 Apr 2009) | 1 line
+Changed paths:
+   M /trunk/GuildCheck.toc
+   M /trunk/embeds.xml
+
+upd: commented libraries out for -nolib version
+------------------------------------------------------------------------
+r8 | tunhadil | 2009-04-22 09:31:20 +0000 (Wed, 22 Apr 2009) | 1 line
+Changed paths:
+   M /trunk/embeds.xml
+
+fix: links in embeded.xml file fixed
+------------------------------------------------------------------------
+r7 | tunhadil | 2009-04-22 01:16:34 +0000 (Wed, 22 Apr 2009) | 1 line
+Changed paths:
+   A /trunk/embeds.xml
+
+add: embeds.xml file added
+------------------------------------------------------------------------
+r6 | tunhadil | 2009-04-22 01:11:36 +0000 (Wed, 22 Apr 2009) | 1 line
+Changed paths:
+   M /trunk
+   D /trunk/ChangeLog.txt
+
+upd: externals addeddel: changelog file deleted
+------------------------------------------------------------------------
+r5 | tunhadil | 2009-04-22 01:03:51 +0000 (Wed, 22 Apr 2009) | 1 line
+Changed paths:
+   D /trunk/libs
+
+del: libs folder deleted
+------------------------------------------------------------------------
+r4 | tunhadil | 2009-04-22 01:00:17 +0000 (Wed, 22 Apr 2009) | 1 line
+Changed paths:
+   A /trunk/libs
+
+add: externals added
+------------------------------------------------------------------------
+r3 | tunhadil | 2009-04-22 00:45:30 +0000 (Wed, 22 Apr 2009) | 1 line
+Changed paths:
+   A /trunk/.pkgmeta
+
+add: .pkgmeta file added
+------------------------------------------------------------------------
+r2 | tunhadil | 2009-04-22 00:41:51 +0000 (Wed, 22 Apr 2009) | 1 line
+Changed paths:
+   A /trunk/ChangeLog.txt
+   A /trunk/GuildCheck.lua
+   A /trunk/GuildCheck.toc
+   A /trunk/Locale-deDE.lua
+   A /trunk/Locale-enUS.lua
+   A /trunk/Locale-ruRU.lua
+
+add: initial commit
+------------------------------------------------------------------------
+r1 | root | 2009-04-21 23:09:12 +0000 (Tue, 21 Apr 2009) | 1 line
+Changed paths:
+   A /branches
+   A /tags
+   A /trunk
+
+"project-3843/mainline: Initial Import"
+------------------------------------------------------------------------

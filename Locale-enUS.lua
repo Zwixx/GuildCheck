@@ -1,0 +1,69 @@
+﻿local L = LibStub("AceLocale-3.0"):NewLocale("GuildCheck", "enUS", true)
+
+-- Options
+L["Use GUI"] = true
+L["Defines whether the changes are diplayed in the chat or in the GUI on login."] = true
+L["Output/Display only on changes"] = true
+L["Show Text/GUI only if changes occurred."] = true
+L["Delay"] = true
+L["Defines the seconds after login until the changes are reported."] = true
+L["<Seconds>"] = true
+L["Show GUI"] = true
+L["Shows a frame where you can display and copy changes."] = true
+L["Show Offline Changes"] = true
+L["Shows changes since last session."] = true
+L["Offline"] = true
+L["Show Online Changes"] = true
+L["Online"] = true
+L["Shows changes during this session."] = true
+L["Open Config"] = true
+L["Opens a graphical configuration."] = true
+L["Exit"] = true
+L["Shows changes in your guild since your last time online."] = true
+L["Display"] = true
+L["Defines what kind of changes will be shown."] = true
+L["Show Promotes/Demotes"] = true
+L["Show Level Ups"] = true
+L["Show Note Changes"] = true
+L["Show Officernote Changes"] = true
+L["Members join"] = true
+L["Show if someone has joined the guild."] = true
+L["Members leave"] = true
+L["Show if someone has left the guild."] = true
+L["Use Guild Log"] = true
+L["Use Data from the Guild Log to show who has invited, promoted, demoted or kicked players.\n\n|cffff0000The output can lag a bit.|r"] = true
+L["GuildXP"] = true
+L["Show GuildXP Changes - Coming soon"] = true
+L["GuildFaction"] = true
+L["Show GuildFaction Changes - Coming soon"] = true
+L["Change Output Channel to Whisper"] = true
+L["Defines whether the changes are diplayed in the default Chat or Whisper to Player."] = true
+L["Minimap Button"] = true
+L["Hides Minimap Button."] = true
+
+-- Output
+L["has left the guild"] = true
+L["was removed by %s"] = true
+L["has joined the guild"] = true
+L["has joined the guild (invited by %s)"] = true
+L["was promoted by %s"] = true
+L["was demoted by %s"] = true
+L["Rank"] = true
+L["Level"] = true
+L["Class"] = true
+L["Note"] = true
+L["Guild Reputation"] = true
+L["GuildXP"] = true
+L["Officernote"] = true
+L["Initial scan done."] = true
+L["The guild '%s' has been deleted."] = true
+L["Total: %d changes"] = true
+L["Total: 1 change"] = true
+L["no changes found"] = true
+L["Data upgraded to version %s!"] = true
+	
+-- Dialog
+L["It seems that your last character has left this guild.\nDo you want to delete the data that GuildCheck has saved for this guild?"] = true
+L["Your GuildCheck Data needs a conversion! This process is not reversible.\nYou can choose 'No' and backup your SavedVariables folder.\nGuildCheck won't work as long as you don't convert the data.\n\nDo you want to convert the data now?"] = true
+L["Yes"] = true
+L["No"] = true
