@@ -1,4 +1,4 @@
-## Interface: 80000
+## Interface: 110002
 ## X-Curse-Packaged-Version: v 2.5.0
 ## X-Curse-Project-Name: GuildCheck
 ## X-Curse-Project-ID: project-3843
@@ -7,7 +7,7 @@
 ## Title: GuildCheck|cff007fff by Jaxom of Hellfire|r.
 ## Version: v 2.5.0
 ## Notes: This mod scans your guild at your first login. After this it writes changes to your guild into the chat frame or Optional Gui at every login. It shows: New Members, Members that have left, Level changes, Rank changes, Public Note changes, Officer Note changes (Must Have Officer read privliges!).       Type "/egc" for options - |cff007fff Original Author Tunahdil|r.
-## Notes-deDE: Zeigt Veränderungen in der Gilde seit dem letzten Mal online sein.
+## Notes-deDE: Zeigt Verï¿½nderungen in der Gilde seit dem letzten Mal online sein.
 ## Notes-ruRU: ???????? ????????? ? ????? ??????? ? ???????? ?????? ??????.
 
 ## Author: Manager/Author = Jaxom of Hellfire, Original Author Tunhadil
