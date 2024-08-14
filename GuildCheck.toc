@@ -1,8 +1,4 @@
 ## Interface: 110002
-## X-Curse-Packaged-Version: v 2.5.0
-## X-Curse-Project-Name: GuildCheck
-## X-Curse-Project-ID: project-3843
-## X-Curse-Repository-ID: wow/project-3843/mainline
 
 ## Title: GuildCheck|cff007fff by Jaxom of Hellfire|r.
 ## Version: v 2.5.0
