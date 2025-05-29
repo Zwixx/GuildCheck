@@ -34,13 +34,11 @@ L["Members leave"] = "Austritte"
 L["Show if someone has left the guild."] = "Zeigt, wenn jemand die Gilde verlassen hat."
 L["Use Guild Log"] = "Verwende Gildenlog"
 L["Use Data from the Guild Log to show who has invited, promoted, demoted or kicked players.\n\n|cffff0000The output can lag a bit.|r"] = "Verwende das Gildenlog, um anzuzeigen, wer einen Spieler eingeladen, befördert, degradiert oder rausgeschmissen hat.\n\n|cffff0000Die Ausgabe kann sich etwas verzögern.|r"
-L["Change Output Channel to Whisper"] = ""
-L["Defines whether the changes are diplayed in the default Chat or Whisper to Player."] = ""   
-L["Minimap Button"] = "" 
-L["Hides Minimap Button."] = ""  
+L["Change Output Channel to Whisper"] = "Ändere Ausgabekanal zu Flüstern"
+L["Defines whether the changes are diplayed in the default Chat or Whisper to Player."] = "Bestimmt, ob die Änderungen im Standardchat oder per Flüstern an den Spieler ausgegeben werden."
+L["Minimap Button"] = "Knopf an der Minimap verstecken"
+L["Hides Minimap Button."] = "Versteckt den Knopf an der Minimap."
 
-
- 
 -- Output
 L["has left the guild"] = "hat die Gilde verlassen"
 L["was removed by %s"] = "wurde von %s entfernt"
